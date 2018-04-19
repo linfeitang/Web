@@ -1,7 +1,7 @@
 	<table border="" cellpadding="" cellspacing="" border="" bgclolr="" background="" frame="">	
 	    <caption>表格的标题</caption>			
 	    <tr>		
-	        <td align="" rowspan="" colspan="">每个单元格中的数据\</td>				
+	        <td align="" rowspan="" colspan="">每个单元格中的数据</td>				
 	    </tr>			
 	</table>			
 
