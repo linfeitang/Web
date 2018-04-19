@@ -1,5 +1,6 @@
 \<form action="action_page.php">    
-&emsp;\<input type="" name="">    
+&emsp;\<input type="" name="">  
+\</form>	  
 ---
 ### 1. \<form>的可选属性
 #### action 
@@ -54,8 +55,9 @@
 >>  sublimt 定义提交表单数据至表单处理程序的按钮。表单处理程序（form-handler）通常是包含处理输入数据的脚本的服务器页面。在表单的 action 属性中规定表单处理程序（form-handler)  
 >>  radio   定义单选按钮(通常表现为一个圆那种),如性别的选择  
 >>  checkbox定义复选框,允许用户进行一个或多个选项    
->>  botton  定义按钮   
->>  html5新增:   
+>>  botton  定义按钮  
+>> 
+>>  **html5新增:**  
 >>>  color   定义一个拾色器    
 >>>  email   定义用于Email地址的字段     
 >>>  image   定义图像作为提交按钮     
