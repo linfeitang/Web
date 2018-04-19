@@ -34,18 +34,18 @@
 >规定 action 属性中地址的目标（默认:self）
 
 ### 2. \<form>底下可包含的表单元素:
-####  ( 1 ). \<select>元素,定义下拉列表,例如:   
+####  ( 1 ) \<select>元素,定义下拉列表,例如:   
     <select name="城市">
-        <option value="volvo">上海</option>   
-        <option value="saab" selected>北京</option>    
-        <option value="fiat">巴黎</option>     
-        <option value="audi">伦敦</option>     
+        <option value="上海">上海</option>   
+        <option value="北京" selected>北京</option>    
+        <option value="巴黎">巴黎</option>     
+        <option value="伦敦">伦敦</option>     
     </select>
 >其中 \<option> 元素定义待选择的选项。     
 >列表通常会把首个选项显示为被选选项。     
 >您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)     
 
-#### ( 2 ). \<input>元素,最为常用,其所有属性如下:
+#### ( 2 ) \<input>元素,最为常用,其所有属性如下:
 ##### tpye,name(这两个为必须)
 >###### 其中type的值也就是input的输入类型有:
 >>  text  
@@ -56,24 +56,24 @@
 >>  checkbox定义复选框,允许用户进行一个或多个选项    
 >>  botton  定义按钮   
 >>  html5新增:   
->>  color   定义一个拾色器    
->>  email   定义用于Email地址的字段     
->>  image   定义图像作为提交按钮     
->>  date    定义date控件(年月日)   
->>  datetime 定义 date 和 time 控件（包括年、月、日、时、分、秒、几分之一秒，基于 UTC 时区）  
->>  datetime-local 同上,但是不带时区   
->>  month   定义year和month控件  
->>  number  定义用于输入数字的字段  
->>  ranger  定义用于精确值不重要的输入数字的控件（比如 slider 控件）。  
->>  search  定义用于输入搜索字符串的文本字段。  
->>  tel     定义用于输入电话号码的字段。  
->>  time    定义用于输入时间的控件（不带时区）。  
->>  url     定义用于输入 URL 的字段。  
->>  week    定义 week 和 year 控件（不带时区）。  
+>>>  color   定义一个拾色器    
+>>>  email   定义用于Email地址的字段     
+>>>  image   定义图像作为提交按钮     
+>>>  date    定义date控件(年月日)   
+>>>  datetime 定义 date 和 time 控件（包括年、月、日、时、分、秒、几分之一秒，基于 UTC 时区）  
+>>>  datetime-local 同上,但是不带时区   
+>>>  month   定义year和month控件  
+>>>  number  定义用于输入数字的字段  
+>>>  ranger  定义用于精确值不重要的输入数字的控件（比如 slider 控件）。  
+>>>  search  定义用于输入搜索字符串的文本字段。  
+>>>  tel     定义用于输入电话号码的字段。  
+>>>  time    定义用于输入时间的控件（不带时区）。  
+>>>  url     定义用于输入 URL 的字段。  
+>>>  week    定义 week 和 year 控件（不带时区）。  
 ##### value           
 >规定输入字段的初始值
 ##### readonly        
-规定输入字段为只读 
+>规定输入字段为只读 
 ##### disabled        
 >规定输入字段是禁用的。
 >被禁用的元素是不可用和不可点击的。
@@ -91,31 +91,31 @@
 ##### checked         
 >规定此input元素首次加载时应该被选中(即用户点击之前的默认选择)
 ##### html5新增属性:
->autocomplete
->autofocus
->form
->formaction
->formenctype
->formmethod
->formnovalidate
->formtarget
->height 和 width
->list
->min 和 max
->multiple
->pattern (regexp)
->placeholder
->required
->step
+>autocomplete	
+>autofocus	
+>form 	
+>formaction 	
+>formenctype 	
+>formmethod 	
+>formnovalidate 	
+>formtarget 	
+>height 和 width 	
+>list 	
+>min 和 max 	 	
+>multiple 	
+>pattern (regexp) 	
+>placeholder 	
+>required 	
+>step 		
 
 ### 3. 关于属性的一些输入限制:
->disabled    规定输入字段应该被禁用。   
->max         规定输入字段的最大值。   
->maxlength   规定输入字段的最大字符数。   
->min         规定输入字段的最小值。   
->pattern     规定通过其检查输入值的正则表达式      
->readonly    规定输入字段为只读（无法修改）。   
->required    规定输入字段是必需的（必需填写）     
->size        规定输入字段的宽度（以字符计）    
->step        规定输入字段的合法数字间隔。     
->value       规定输入字段的默认值。       
+disabled    &emsp;&emsp;规定输入字段应该被禁用。   
+max         &emsp;&emsp;规定输入字段的最大值。   
+maxlength   &emsp;&emsp;规定输入字段的最大字符数。   
+min         &emsp;&emsp;规定输入字段的最小值。   
+pattern     &emsp;&emsp;规定通过其检查输入值的正则表达式      
+readonly    &emsp;&emsp;规定输入字段为只读（无法修改）。   
+required    &emsp;&emsp;规定输入字段是必需的（必需填写）     
+size        &emsp;&emsp;规定输入字段的宽度（以字符计）    
+step        &emsp;&emsp;规定输入字段的合法数字间隔。     
+value       &emsp;&emsp;规定输入字段的默认值。       
