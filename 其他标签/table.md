@@ -1,10 +1,10 @@
-	\<table border="" cellpadding="" cellspacing="" border="" bgclolr="" background="" frame="">	
-	    \<caption>表格的标题\</caption>			
-	    \<tr>		
-	        \<td align="" rowspan="" colspan="">每个单元格中的数据\</td>				
-	    \</tr>			
-	\</table>			
----
+	<table border="" cellpadding="" cellspacing="" border="" bgclolr="" background="" frame="">	
+	    <caption>表格的标题</caption>			
+	    <tr>		
+	        <td align="" rowspan="" colspan="">每个单元格中的数据\</td>				
+	    </tr>			
+	</table>			
+
 **每个表格由table标签开始     
 表中的每一行由\<tr>标签(table row)开始,内嵌\<th>标签可用于定义表头(表现为粗体居中)      
 行中的每一个数据由\<td>标签(table date)开始     
