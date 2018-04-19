@@ -1,7 +1,7 @@
 \<form action="action_page.php">    
 &emsp;\<input type="" name="">    
 ---
-### \<form>的可选属性
+### 1. \<form>的可选属性
 #### action 
 >属性定义在提交表单时执行的动作。     
 >向服务器提交表单的通常做法是使用提交按钮。   
@@ -33,8 +33,8 @@
 #### target          
 >规定 action 属性中地址的目标（默认:self）
 
-### \<form>底下可包含的表单元素:
-####  1. \<select>元素,定义下拉列表,例如:   
+### 2. \<form>底下可包含的表单元素:
+####  (1). \<select>元素,定义下拉列表,例如:   
     <select name="城市">
         <option value="volvo">上海</option>   
         <option value="saab" selected>北京</option>    
@@ -45,7 +45,7 @@
 >列表通常会把首个选项显示为被选选项。     
 >您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)     
 
-#### 2. \<input>元素,最为常用,其所有属性如下:
+#### (2). \<input>元素,最为常用,其所有属性如下:
 ##### tpye,name(这两个为必须)
 >###### 其中type的值也就是input的输入类型有:
 >>  text  
@@ -108,7 +108,7 @@
 >required
 >step
 
-### 关于属性的一些输入限制:
+### 3. 关于属性的一些输入限制:
 >disabled    规定输入字段应该被禁用。   
 >max         规定输入字段的最大值。   
 >maxlength   规定输入字段的最大字符数。   
