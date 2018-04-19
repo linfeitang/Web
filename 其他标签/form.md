@@ -34,18 +34,18 @@
 >规定 action 属性中地址的目标（默认:self）
 
 ### 2. \<form>底下可包含的表单元素:
-####  (1). \<select>元素,定义下拉列表,例如:   
+####  ( 1 ). \<select>元素,定义下拉列表,例如:   
     <select name="城市">
         <option value="volvo">上海</option>   
         <option value="saab" selected>北京</option>    
         <option value="fiat">巴黎</option>     
         <option value="audi">伦敦</option>     
     </select>
->其中**<option>** 元素定义待选择的选项。     
+>其中 \<option> 元素定义待选择的选项。     
 >列表通常会把首个选项显示为被选选项。     
 >您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)     
 
-#### (2). \<input>元素,最为常用,其所有属性如下:
+#### ( 2 ). \<input>元素,最为常用,其所有属性如下:
 ##### tpye,name(这两个为必须)
 >###### 其中type的值也就是input的输入类型有:
 >>  text  
