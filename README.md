@@ -31,4 +31,4 @@
 > translate 		规定是否应该翻译元素内容。  
 
 
-(http://www.wallpapermaiden.com/image/2018/04/24/mountain-sunset-snow-clouds-landscape-scenic-landscape-21008-resized.jpg)
+!(http://www.wallpapermaiden.com/image/2018/04/24/mountain-sunset-snow-clouds-landscape-scenic-landscape-21008-resized.jpg)
