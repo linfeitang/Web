@@ -31,3 +31,4 @@
 > translate 		规定是否应该翻译元素内容。  
 
 ![ ](https://github.com/linfeitang/Photo/blob/master/wallhaven-206434.jpg)
+![ ](https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-646809.jpg)
