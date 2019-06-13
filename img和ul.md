@@ -1,7 +1,7 @@
-\<img src="images/..." alt="" align="">
+`\<img src="images/..." alt="" align="">`
 
 *如果要按比例缩放原图，则只需要设置其width值即可，height不设置*
----
+
 #### src 源属性,srouce的缩写:  
 >***注意:图片之前一定要加上images/***      
 >\<img> 是空标签，意思是说，它只包含属性，并且没有闭合标签。           
