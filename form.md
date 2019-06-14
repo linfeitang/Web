@@ -1,7 +1,6 @@
-\<form action="action_page.php">    
-&emsp;\<input type="" name="">  
-\</form>	  
----
+`<form action="action_page.php">    
+&emsp;<input type="" name="">  </form>`	  
+
 ### 1. \<form>的可选属性
 #### action 
 >属性定义在提交表单时执行的动作。     
