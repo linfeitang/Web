@@ -51,8 +51,7 @@
 
 #### ( 2 ) \<input>元素
 最为常用,其所有属性如下:
-- tpye,name*这两个是必须的*
-
+- **tpye,name***这两个是必须的*
  	name可以自定义，tpye的值包含如下：
 	- text  
 	- password  
