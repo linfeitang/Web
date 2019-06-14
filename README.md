@@ -32,19 +32,19 @@ HTML 元素以结束标签终止
 - `translate 	 ` 规定是否应该翻译元素内容。  
 
 ### 文本格式化标签     
-- `<b>`			    |<b>粗体</b> 					|  
-- `<big>`			|<big>大号字</big>				|  
-- `<em>` 			|<em>强调文字并以斜体显示</em>	|  
-- `<i>` 			|<i>定义斜体字</i>  				|
-- `<small> `		|<small>定义小号字</small>  	    | 	  
-- `<strong>` 		|<strong>定义加重语气</strong>   |    
-- `<sub>`			|<sub>定义下标字</sub>         	|
-- `<sup>`			|<sup>定义上标字</sup>			|      
-- `<ins>`			|<ins>定义插入字</ins>			|      
-- `<del>`			|<del>定义删除字</del>			|      
-- `<s>` 			|<s>不赞成使用,使用\<del>代替</s> |      
-- `<strike>` 		|<strike>不赞成使用,使用\<del>代替</strike>|        
-- `<u>` 			|<u>不赞成使用,使用样式(style)代替</u>     |
+- `<b>`			    <b>粗体</b>    
+- `<big>`			<big>大号字</big>    
+- `<em>` 			<em>强调文字并以斜体显示</em>  
+- `<i>` 			<i>定义斜体字</i>  	
+- `<small> `		<small>定义小号字</small>  
+- `<strong>` 		<strong>定义加重语气</strong>       
+- `<sub>`			<sub>定义下标字</sub>         
+- `<sup>`			<sup>定义上标字</sup>      
+- `<ins>`			<ins>定义插入字</ins>      
+- `<del>`			<del>定义删除字</del>      
+- `<s>` 			<s>不赞成使用,使用\<del>代替</s>       
+- `<strike>` 		<strike>不赞成使用,使用\<del>代替</strike>        
+- `<u>` 			<u>不赞成使用,使用样式(style)代替</u>     
 
 ### 引用和术语类标签      
 - `<abbr>`        	<abbr>定义缩写(添加上title属性后当将鼠标指针置于缩略词上的时候,浏览器会显示title属性里所描述的完整的内容)</abbr>  
