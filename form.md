@@ -1,23 +1,24 @@
-`<form action="action_page.php">    
-&emsp;<input type="" name="">  </form>`	  
+`
+<form action="action_page.php">
+	<input type="" name="">  
+</form>
+`	  
 
 ### 1. \<form>的可选属性
-#### action 
+#### *action*
 >属性定义在提交表单时执行的动作。     
->向服务器提交表单的通常做法是使用提交按钮。   
->通常，表单会被提交到 web 服务器上的网页。    
->如果省略 action 属性，则 action 会被设置为当前页面。         
-#### method 
+向服务器提交表单的通常做法是使用提交按钮。   
+通常，表单会被提交到 web 服务器上的网页。    
+如果省略 action 属性，则 action 会被设置为当前页面。         
+#### *method*
 >规定在提交表单时所用的 HTTP方法,其值为GET或POST     
->何时使用GET:               
->>您能够使用 GET（默认方法）：       
->>如果表单提交是被动的（比如搜索引擎查询），并且没有敏感信息。     
->>当您使用 GET 时，表单数据在页面地址栏中是可见的         
->>GET 最适合少量数据的提交。浏览器会设定容量限制。    
->   
->何时使用POST:                      
->>如果表单正在更新数据，或者包含敏感信息（例如密码）。     
->>POST 的安全性更加，因为在页面地址栏中被提交的数据是不可见的。      
+- 何时使用GET:               
+您能够使用 GET（默认方法）：       
+如果表单提交是被动的（比如搜索引擎查询），并且没有敏感信息。    当您使用 GET 时，表单数据在页面地址栏中是可见的         
+GET 最适合少量数据的提交。浏览器会设定容量限制。    
+- 何时使用POST:                      
+如果表单正在更新数据，或者包含敏感信息（例如密码）。     
+POST 的安全性更加，因为在页面地址栏中被提交的数据是不可见的。      
 #### accept-charset  
 >规定在被提交表单中使用的字符集（默认：页面字符集）。     
 #### autocomplete    
@@ -34,19 +35,25 @@
 >规定 action 属性中地址的目标（默认:self）
 
 ### 2. \<form>底下可包含的表单元素:
-####  ( 1 ) \<select>元素,定义下拉列表,例如:   
+####  ( 1 ) \<select>元素
+定义下拉列表,例如:
+```
     <select name="城市">
         <option value="上海">上海</option>   
         <option value="北京" selected>北京</option>    
         <option value="巴黎">巴黎</option>     
         <option value="伦敦">伦敦</option>     
     </select>
+```
 >其中 \<option> 元素定义待选择的选项。     
->列表通常会把首个选项显示为被选选项。     
->您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)     
+列表通常会把首个选项显示为被选选项。     
+您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)     
 
-#### ( 2 ) \<input>元素,最为常用,其所有属性如下:
-##### tpye,name(这两个为必须)
+#### ( 2 ) \<input>元素
+最为常用,其所有属性如下:
+- tpye,name
+*这两个是必须的*
+
 >###### 其中type的值也就是input的输入类型有:
 >>  text  
 >>  password  
@@ -71,52 +78,54 @@
 >>>  time    定义用于输入时间的控件（不带时区）。  
 >>>  url     定义用于输入 URL 的字段。  
 >>>  week    定义 week 和 year 控件（不带时区）。  
-##### value           
+- value           
 >规定输入字段的初始值
-##### readonly        
+- readonly        
 >规定输入字段为只读 
-##### disabled        
+- disabled        
 >规定输入字段是禁用的。
->被禁用的元素是不可用和不可点击的。
->被禁用的元素不会被提交
->(readonly和disabled不需要有值,直接加上即可)
-##### size            
+被禁用的元素是不可用和不可点击的。
+被禁用的元素不会被提交
+(readonly和disabled不需要有值,直接加上即可)
+- size            
 >规定输入字段的尺寸(以字符计)
-##### maxlength       
+- maxlength       
 >规定输入字段允许的最大长度
->如设置 maxlength 属性，则输入控件不会接受超过所允许数的字符。       
->该属性不会提供任何反馈。如果需要提醒用户，则必须编写 JavaScript 代码。      
->注：输入限制并非万无一失。JavaScript提供了很多方法来增加非法输入。如需安全地限制输入，则接受者（服务器）必须同时对限制进行检查   
-##### alt             
+如设置 maxlength 属性，则输入控件不会接受超过所允许数的字符。该属性不会提供任何反馈。如果需要提醒用户，则必须编写JavaScript代码。  
+*注：输入限制并非万无一失。JavaScript提供了很多方法来增加非法输入。如需安全地限制输入，则接受者（服务器）必须同时对限制进行检查*    
+- alt             
 >定义图像输入的替代文本
-##### checked         
+- checked         
 >规定此input元素首次加载时应该被选中(即用户点击之前的默认选择)
-##### html5新增属性:
->autocomplete	
->autofocus	
->form 	
->formaction 	
->formenctype 	
->formmethod 	
->formnovalidate 	
->formtarget 	
->height 和 width 	
->list 	
->min 和 max 	 	
->multiple 	
->pattern (regexp) 	
->placeholder 	
->required 	
->step 		
+
+- html5新增属性:
+```
+autocomplete	
+autofocus	
+form 	
+formaction 	
+formenctype 	
+formmethod 	
+formnovalidate 	
+formtarget 	
+height 和 width 	
+list 	
+min 和 max 	 	
+multiple 	
+pattern (regexp) 	
+placeholder 	
+required 	
+step
+``` 		
 
 ### 3. 关于属性的一些输入限制:
-disabled    &emsp;&emsp;规定输入字段应该被禁用。   
-max         &emsp;&emsp;规定输入字段的最大值。   
-maxlength   &emsp;&emsp;规定输入字段的最大字符数。   
-min         &emsp;&emsp;规定输入字段的最小值。   
-pattern     &emsp;&emsp;规定通过其检查输入值的正则表达式      
-readonly    &emsp;&emsp;规定输入字段为只读（无法修改）。   
-required    &emsp;&emsp;规定输入字段是必需的（必需填写）     
-size        &emsp;&emsp;规定输入字段的宽度（以字符计）    
-step        &emsp;&emsp;规定输入字段的合法数字间隔。     
-value       &emsp;&emsp;规定输入字段的默认值。       
+>disabled    规定输入字段应该被禁用。   
+max         规定输入字段的最大值。   
+maxlength   规定输入字段的最大字符数。   
+min         规定输入字段的最小值。   
+pattern     规定通过其检查输入值的正则表达式     
+readonly    规定输入字段为只读（无法修改）。   
+required    规定输入字段是必需的（必需填写）     
+size        规定输入字段的宽度（以字符计）    
+step        规定输入字段的合法数字间隔。     
+value       规定输入字段的默认值。       
