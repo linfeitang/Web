@@ -20,7 +20,7 @@ HTML 元素以结束标签终止
 `contextmenu  ` 规定元素的上下文菜单。上下文菜单在用户点击元素时显示。  
 `data-* 	  ` 	用于存储页面或应用程序的私有定制数据。  
 `dir 		 ` 规定元素中内容的文本方向。  
-`draggable 	 ` 规定元素是否可拖动。
+`draggable 	 ` 规定元素是否可拖动。  
 `dropzone 	 ` 规定在拖动被拖动数据时是否进行复制、移动或链接。   
 `hidden 	  ` 	规定元素仍未或不再相关。  
 `id 		  ` 	规定元素的唯一 id。   
@@ -45,10 +45,10 @@ HTML 元素以结束标签终止
 
 ***文本格式化标签***  
 `<b>`			<b>粗体</b>    	    		    	
-`<big>`			<big>大号字</big>           	 	
-`<em>` 			<em>强调文字并以斜体显示</em>          	 	
-`<i>` 			<i>定义斜体字</i>        		
-`<small> `		<small>定义小号字</small>    	  
+`<big>`			<big>大号字</big>  
+`<em>` 			<em>强调文字并以斜体显示</em>  
+`<i>` 			<i>定义斜体字</i>  	
+`<small> `		<small>定义小号字</small>  
 `<strong>` 		<strong>定义加重语气</strong>       
 `<sub>`			<sub>定义下标字</sub>         
 `<sup>`			<sup>定义上标字</sup>      
