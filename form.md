@@ -43,23 +43,16 @@
     <option value="伦敦">伦敦</option>     
 </select>
 ```
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<form>
-	<select name="城市">
-	    <option value="上海">上海</option>   
-	    <option value="北京" selected>北京</option>    
-	    <option value="巴黎">巴黎</option>     
-	    <option value="伦敦">伦敦</option>     
-	</select>
-</form>
-</body>
-</html>
+<p>
+	<form>
+		<select name="城市">
+		    <option value="上海">上海</option>   
+		    <option value="北京" selected>北京</option>    
+		    <option value="巴黎">巴黎</option>     
+		    <option value="伦敦">伦敦</option>     
+		</select>
+	</form>
+</p>
 *其中\<option>元素定义待选择的选项。     
 列表通常会把首个选项显示为被选选项。     
 您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)*
