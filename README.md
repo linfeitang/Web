@@ -7,7 +7,6 @@
 |Opera				|Presto		|	
 
 **css权重**
-
 |选择器             |css权重值|  
 |--------			|-------|
 |!important			|Infinity|				
