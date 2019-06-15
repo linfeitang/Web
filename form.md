@@ -50,6 +50,7 @@
    
 
 #### ( 2 ) \<input>元素
+<sub>[举例](https://linfeitang.github.io/Web/example.html)</sub>
 最为常用,其所有属性如下:
 - **tpye,name***这两个是必须的*
 
@@ -126,4 +127,3 @@
 - step        规定输入字段的合法数字间隔。     
 - value       规定输入字段的默认值。     
 
-[比如](https://linfeitang.github.io/Web/example.html)
