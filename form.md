@@ -126,4 +126,4 @@
 - step        规定输入字段的合法数字间隔。     
 - value       规定输入字段的默认值。     
 
-<a href="https://linfeitang.github.io/Web/example.html"></a>  
+![比如](https://linfeitang.github.io/Web/example.html)
