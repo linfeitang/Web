@@ -1,9 +1,10 @@
-|主流浏览器		|内核		|	
-|IE		|		|trident	
-|Firefox	|Gecko		|	
-|Google chrome|Webkit/blink		|	
-|Safari		|Webkit		|	
-|Opera		|Presto		|	
+|主流浏览器			|内核		|	
+|------				|------ 	|
+|IE					|trident	
+|Firefox			|Gecko		|	
+|Google chrome		|Webkit/blink|	
+|Safari				|Webkit		|	
+|Opera				|Presto		|	
 	
 ### HTML 元素
 *定义:指的是从开始标签（start tag）到结束标签（end tag）的所有代码。*
