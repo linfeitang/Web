@@ -57,7 +57,7 @@
 	- text  
 	- password  
   	- reset   定义重置按钮,点击后表中其他已填写的数据被清空  
-	- sublimt 定义提交表单数据至表单处理程序的按钮。表单处理程序（form-handler）通常是包含处理输入数据的脚本的服务器页面。在表单的 action 属性中规定表单处理程序（form-handler)  
+	- submit 定义提交表单数据至表单处理程序的按钮。表单处理程序（form-handler）通常是包含处理输入数据的脚本的服务器页面。在表单的 action 属性中规定表单处理程序（form-handler)  
 	- radio   定义单选按钮(此时多个不同的input的name值必须相同),如性别的选择  
 	- checkbox定义复选框,允许用户进行一个或多个选项    
 	- botton  定义按钮  
