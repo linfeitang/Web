@@ -6,8 +6,8 @@
 |Safari				|Webkit		|	
 |Opera				|Presto		|	
 
-
 **css权重**
+
 |选择器             |css权重值|  
 |--------			|-------|
 |!important			|Infinity|				
@@ -16,6 +16,7 @@
 |class/属性/伪类		|10		|		
 |标签/伪元素			|1		|		
 |通配符				|0		|	
+
 *其中权重值采用的是256进制*  
 
 ### HTML 元素
