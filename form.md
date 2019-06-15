@@ -49,8 +49,7 @@
 您能够通过添加 **selected** 属性来定义预定义选项(例如第二行)*
    
 
-#### ( 2 ) \<input>元素
-<sub>[举例](https://linfeitang.github.io/Web/example.html)</sub>
+#### ( 2 ) \<input>元素 [举例](https://linfeitang.github.io/Web/example.html)
 最为常用,其所有属性如下:
 - **tpye,name***这两个是必须的*
 
