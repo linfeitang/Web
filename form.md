@@ -124,4 +124,6 @@
 - required    规定输入字段是必需的（必需填写）     
 - size        规定输入字段的宽度（以字符计）    
 - step        规定输入字段的合法数字间隔。     
-- value       规定输入字段的默认值。       
+- value       规定输入字段的默认值。     
+
+<a href="https://linfeitang.github.io/Web/example.html"></a>  
