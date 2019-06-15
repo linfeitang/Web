@@ -21,6 +21,6 @@
 
 
 - align:图像与文本的对齐方式    
-bottom,middle,top分别将文本与图像的底部,中间,顶部对齐(默认为bottom)  	
-left,right决定图像浮动到文本的左边还是右边    	
-heigth,width  决定图像大小的属性  			
+bottom,middle,top分别将文本与图像的底部,中间,顶部对齐(默认为bottom)  
+left,right决定图像浮动到文本的左边还是右边  
+heigth,width  决定图像大小的属性  
