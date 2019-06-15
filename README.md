@@ -5,7 +5,19 @@
 |Google chrome		|Webkit/blink|	
 |Safari				|Webkit		|	
 |Opera				|Presto		|	
-	
+
+
+**css权重**
+|选择器             |css权重值|  
+|---				|-----|
+|!important			|Infinity|				
+|行间样式			|1000	|			
+|id					|100	|
+|class/属性/伪类		|10		|		
+|标签/伪元素			|1		|		
+|通配符				|0		|	
+*其中权重值采用的是256进制*  
+
 ### HTML 元素
 *定义:指的是从开始标签（start tag）到结束标签（end tag）的所有代码。*
 
