@@ -35,8 +35,6 @@ css代码：
 div > em{
 	background-color: green;
 }
-strong > em{
-	background-color: red;
-}
 ```
-> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616160409.jpg?token=AH3FPOBG5IARMJGPYFOKMOK5AX4KK)
+可以看到只有直属于div的em才被样式化，而strong下的em没有生效。
+> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190616161305.png?token=AH3FPOBTZE7ZH5B3VRABXDS5AX5HI)
