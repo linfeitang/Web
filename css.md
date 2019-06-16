@@ -2,10 +2,10 @@
 ### 1.父子选择器/派生选择器
 html代码
 ```
-<div>
-	<p>这里的内容被样式化了</p>
+<div class="red">
+	<p>123</p>
 </div>
-<p>这里的内容没有被样式化</p>
+<p>456</p>
 ```
 css代码
 ```
@@ -13,7 +13,16 @@ div p{
 	background-color:red;
 }
 ```
-*注：只要能体现出父子关系就可以，不一定非要用标签表示，也可以用标签所对应的class或者id来表示父子关系*
+![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616215515.jpg)
+
+*注：只要能体现出父子关系就可以，不一定非要用标签表示，也可以用标签所对应的class或者id来表示父子关系*  
+所以css还可以这样写：
+```
+[class="123"] p{
+	background-color: red;
+
+}
+```
 
 ### 2.直接子元素选择器
 html代码
@@ -32,6 +41,7 @@ div > em{
 	background-color: green;
 }
 ```
+![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616214243.jpg)
 可以看到只有直属于div的em才被样式化，而strong下的em没有生效。
 
 ### 3.并列选择器
@@ -47,3 +57,4 @@ div.demo{
 	background-color: green;
 }
 ```
+！[](https://github.com/linfeitang/diary/blob/master/Pictures/20190616185850.jpg)
