@@ -54,7 +54,7 @@ html代码：实现效果：只让内容456对样式生效
 css代码：
 ```
 div.demo{
-	background-color: green;
+	background-color: red;
 }
 ```
-！[](https://github.com/linfeitang/diary/blob/master/Pictures/20190616185850.jpg)
+![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616185850.jpg)
