@@ -1,7 +1,6 @@
 ## 复杂选择器
 - 父子选择器/派生选择器
 
-eg:
 html代码
 ```
 <div>
@@ -15,13 +14,12 @@ div p{
 	background-color:red;
 }
 ```
-*注：只要能体现出父子关系就可以，不一定非要用标签表示，也可以用标签所对应的class或者id来表示父子关系*  
-效果图：
+*注：只要能体现出父子关系就可以，不一定非要用标签表示，也可以用标签所对应的class或者id来表示父子关系*
 
-![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616154624.png?token=AH3FPOHH77VULZ3VIDKBRWK5AX2I2)
+> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616154624.png?token=AH3FPOF7KT6RLWWEG3PY4PC5AX4TU)
 
 - 直接子元素选择器
-eg：
+
 html代码
 ```
 <div>
@@ -41,4 +39,4 @@ strong > em{
 	background-color: red;
 }
 ```
-![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616160409.jpg?token=AH3FPOBG5IARMJGPYFOKMOK5AX4KK)
+> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616160409.jpg?token=AH3FPOBG5IARMJGPYFOKMOK5AX4KK)
