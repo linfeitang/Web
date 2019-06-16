@@ -6,7 +6,8 @@
 |Safari				|Webkit		|	
 |Opera				|Presto		|	
 
-**css权重**
+#### css权重
+**！important > 行间样式的优先级 > 引入样式 > 大于页面样式。**
 
 |选择器          |css权重值|  
 |--------		|-------|
