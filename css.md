@@ -41,11 +41,13 @@ div > em{
 	background-color: green;
 }
 ```
-![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616214243.jpg)
-可以看到只有直属于div的em才被样式化，而strong下的em没有生效。
+![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616214243.jpg)  
+
+*可以看到只有直属于div的em才被样式化，而strong下的em没有生效。*
 
 ### 3.并列选择器
-html代码：实现效果：只让内容456对样式生效
+欲实现效果：只让内容456对样式生效  
+html代码：
 ```
 <div>123</div>
 <div class="demo">456</div>
