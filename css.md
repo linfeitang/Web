@@ -16,7 +16,7 @@ div p{
 ```
 *注：只要能体现出父子关系就可以，不一定非要用标签表示，也可以用标签所对应的class或者id来表示父子关系*
 
-> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616154624.png?token=AH3FPOF7KT6RLWWEG3PY4PC5AX4TU)
+> ![](https://raw.githubusercontent.com/linfeitang/diary/master/Pictures/20190616154624.png?token=AH3FPOGSAZFQG2IINEEZ55C5AX5QM)
 
 - 直接子元素选择器
 
