@@ -62,7 +62,7 @@ div.demo{
 ![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616220056.jpg)
 
 ### 4.分组选择器
-让多个不同标签里面的内容显示相同的效果
+让多个不同标签里面的内容显示相同的效果  
 html代码：
 ```
 <em>123</em>
