@@ -60,3 +60,27 @@ div.demo{
 }
 ```
 ![](https://github.com/linfeitang/diary/blob/master/Pictures/20190616220056.jpg)
+
+### 分组选择器
+让多个不同标签里面的内容显示相同的效果
+html代码：
+```
+<em>123</em>
+<strong>456</strong>
+<span>789</span>
+```
+css代码：
+```
+em,strong,span{
+	background-color: red;
+}
+```
+实际开发中，一般单独成行：方便书写更复杂的选择器
+```
+em,
+strong,
+span{
+	background-color: red;
+}
+```
+![](https://github.com/linfeitang/diary/blob/master/Pictures/20190617104108.jpg)
